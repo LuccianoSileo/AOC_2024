@@ -1,0 +1,39 @@
+El Historiador Jefe siempre está presente en el gran lanzamiento navideño del trineo, ¡pero hace meses que nadie lo ve! Lo último que se sabe de él es que ha estado visitando lugares de importancia histórica para el Polo Norte. Un grupo de historiadores jefe te ha pedido que les acompañes a comprobar los lugares que creen que es más probable que visitara.
+
+Cada vez que comprueben un lugar, lo marcarán en su lista con una estrella. Imaginan que el Historiador Jefe debe estar en uno de los primeros cincuenta lugares en los que buscarán, así que para salvar la Navidad, tienes que ayudarles a conseguir cincuenta estrellas en su lista antes de que Papá Noel despegue el 25 de diciembre.
+
+Consigue estrellas resolviendo puzles. Cada día del calendario de Adviento habrá dos puzles disponibles; el segundo se desbloquea al completar el primero. Cada puzle otorga una estrella. Buena suerte.
+
+Aún no has salido y el grupo de Historiadores Mayores Elfos ya se ha topado con un problema: su lista de lugares a revisar está vacía. Al final, alguien decide que el mejor lugar para comprobar primero sería la oficina del Historiador Jefe.
+
+Al entrar en el despacho, todos confirman que el Historiador Jefe no se encuentra por ninguna parte. En su lugar, los elfos descubren un surtido de notas y listas de lugares de importancia histórica. Esta parece ser la planificación que el Historiador Jefe estaba haciendo antes de marcharse. ¿Quizás estas notas puedan servir para determinar qué lugares buscar?
+
+En toda la oficina del Jefe, los lugares de importancia histórica no aparecen por su nombre, sino por un número único llamado ID del lugar. Para asegurarse de que no se les escapa nada, los historiadores se dividen en dos grupos, cada uno de los cuales busca en la oficina e intenta crear su propia lista completa de ID de lugares.
+
+Sólo hay un problema: al poner las dos listas una al lado de la otra (tu aportación al rompecabezas), rápidamente se hace evidente que las listas no son muy parecidas. ¿Quizás puedas ayudar a los historiadores a reconciliar sus listas?
+
+Por ejemplo:
+
+3 4
+4 3
+2 5
+1 3
+3 9
+3 3
+
+Puede que las listas sólo estén separadas por una pequeña diferencia. Para averiguarlo, empareja los números y mide la distancia entre ellos. Empareja el número más pequeño de la lista de la izquierda con el número más pequeño de la lista de la derecha, luego el segundo número más pequeño de la izquierda con el segundo número más pequeño de la derecha, y así sucesivamente.
+
+Dentro de cada pareja, calcula la distancia entre los dos números; tendrás que sumar todas esas distancias. Por ejemplo, si emparejas un 3 de la lista de la izquierda con un 7 de la lista de la derecha, la distancia de separación es 4; si emparejas un 9 con un 3, la distancia de separación es 6.
+
+En la lista de ejemplo anterior, los pares y las distancias serían los siguientes:
+
+El número más pequeño de la lista de la izquierda es 1, y el número más pequeño de la lista de la derecha es 3. La distancia entre ellos es 2.
+El segundo número más pequeño de la lista de la izquierda es el 2, y el segundo número más pequeño de la lista de la derecha es otro 3. La distancia entre ellos es 1.
+El tercer número más pequeño de ambas listas es el 3, por lo que la distancia entre ellos es 0.
+Los siguientes números en emparejarse son el 3 y el 4, con una distancia de 1.
+Los quintos números más pequeños de cada lista son el 3 y el 5, con una distancia de 2.
+Por último, el número más grande de la lista de la izquierda es el 4, mientras que el número más grande de la lista de la derecha es el 9; entre ellos hay una distancia de 5.
+Para hallar la distancia total entre la lista izquierda y la lista derecha, suma las distancias entre todos los pares que has encontrado. En el ejemplo anterior, es 2 + 1 + 0 + 1 + 2 + 5, ¡una distancia total de 11!
+
+Las listas izquierda y derecha contienen muchos ID de ubicación. ¿Cuál es la distancia total entre tus listas?
+
