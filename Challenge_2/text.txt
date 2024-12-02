@@ -1,0 +1,52 @@
+--- Día 2: Informes de Nariz Roja ---
+Afortunadamente, el primer lugar que los Historiadores quieren registrar no está muy lejos de la oficina del Historiador Jefe.
+
+Aunque en la planta de fusión/fisión nuclear del Reno de la Nariz Roja no parece haber rastro del Historiador Jefe, los ingenieros del lugar corren hacia ti en cuanto te ven. Al parecer, todavía hablan de la vez que Rudolph se salvó gracias a la síntesis molecular de un solo electrón.
+
+Se apresuran a añadir que -ya que estás aquí- agradecerían mucho tu ayuda para analizar algunos datos inusuales del reactor de la Nariz Roja. Te giras para comprobar si los Historiadores te están esperando, pero parece que ya se han dividido en grupos que están registrando todos los rincones de la instalación. Te ofreces a ayudarles con los datos inusuales.
+
+Los datos inusuales (la entrada de tu puzzle) consisten en muchos informes, un informe por línea. Cada informe es una lista de números llamados niveles que están separados por espacios. Por ejemplo
+
+7 6 4 2 1
+1 2 7 8 9
+9 7 6 2 1
+1 3 2 4 5
+8 6 4 4 1
+1 3 6 7 9
+
+Estos datos de ejemplo contienen seis informes con cinco niveles cada uno.
+
+Los ingenieros intentan averiguar qué informes son seguros. Los sistemas de seguridad del reactor Red-Nosed sólo pueden tolerar niveles que aumenten o disminuyan gradualmente. Por tanto, un informe sólo se considera seguro si se cumplen las dos condiciones siguientes:
+
+Todos los niveles son crecientes o decrecientes.
+Dos niveles adyacentes cualesquiera difieren al menos en uno y como máximo en tres.
+En el ejemplo anterior, los informes se pueden encontrar seguros o inseguros comprobando esas reglas:
+
+7 6 4 2 1: Seguro porque todos los niveles son decrecientes en 1 ó 2.
+1 2 7 8 9: Inseguro porque 2 7 es un incremento de 5.
+9 7 6 2 1: Inseguro porque 6 2 es una disminución de 4.
+1 3 2 4 5: Inseguro porque 1 3 es creciente pero 3 2 es decreciente.
+8 6 4 4 1: Inseguro porque 4 4 no es ni un aumento ni una disminución.
+1 3 6 7 9: Seguro porque todos los niveles aumentan en 1, 2 o 3.
+Por lo tanto, en este ejemplo, 2 informes son seguros.
+
+Analice los datos inusuales de los ingenieros. ¿Cuántos informes son seguros?
+
+--- Segunda parte
+Los ingenieros se sorprenden por el bajo número de informes seguros hasta que se dan cuenta de que se les olvidó hablarles del Amortiguador de Problemas.
+
+El Amortiguador de Problemas es un módulo montado en el reactor que permite a los sistemas de seguridad del reactor tolerar un único nivel malo en lo que de otro modo sería un informe seguro. Es como si el nivel malo nunca se hubiera producido.
+
+Ahora se aplican las mismas reglas que antes, excepto que si eliminar un solo nivel de un informe inseguro lo convertiría en seguro, el informe cuenta como seguro.
+
+Más informes del ejemplo anterior son ahora seguros:
+
+7 6 4 2 1: Seguro sin eliminar ningún nivel.
+1 2 7 8 9: Inseguro independientemente del nivel que se elimine.
+9 7 6 2 1: Inseguro independientemente del nivel que se elimine.
+1 3 2 4 5: Seguro eliminando el segundo nivel, el 3.
+8 6 4 4 1: Seguro eliminando el tercer nivel, 4.
+1 3 6 7 9: Seguro sin eliminar ningún nivel.
+Gracias al Amortiguador de Problemas, ¡4 informes son realmente seguros!
+
+Actualice su análisis manejando situaciones en las que el Amortiguador de Problemas puede eliminar un solo nivel de los informes inseguros. ¿Cuántos informes son ahora seguros?
