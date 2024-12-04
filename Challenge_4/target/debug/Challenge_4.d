@@ -1,0 +1,1 @@
+/home/darkroos/ULL/AdventCode/AOC_2024/Challenge_4/target/debug/Challenge_4: /home/darkroos/ULL/AdventCode/AOC_2024/Challenge_4/src/main.rs /home/darkroos/ULL/AdventCode/AOC_2024/Challenge_4/src/word_search.rs

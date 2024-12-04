@@ -1,0 +1,64 @@
+--- Día 4: Búsqueda de Ceres ---
+«Parece que el Jefe no está aquí. ¡Siguiente!» Uno de los Historiadores saca un dispositivo y pulsa el único botón que tiene. Tras un breve destello, ¡reconoce el interior de la estación de vigilancia de Ceres!
+
+Mientras continúa la búsqueda del Jefe, una pequeña elfa que vive en la estación te tira de la camisa; le gustaría saber si podrías ayudarla con su sopa de letras (la entrada de tu puzzle). Sólo tiene que encontrar una palabra: XMAS.
+
+Esta sopa de letras permite que las palabras sean horizontales, verticales, diagonales, escritas al revés o incluso que se superpongan a otras palabras. Es un poco inusual, sin embargo, ya que no sólo tiene que encontrar una instancia de XMAS - que necesita para encontrar todos ellos. Estas son algunas de las formas en que puede aparecer XMAS, en las que los caracteres irrelevantes se han sustituido por .:
+
+
+..X...
+.SAMX.
+.A..A.
+XMAS.S
+.X....
+En cambio, la búsqueda de palabras real estará llena de letras. Por ejemplo
+
+MMMSXXMASM
+MSAMXMSMSA
+AMXSXMAAMM
+MSAMASMSMX
+XMASAMXAMM
+XXAMMXXAMA
+SMSMSASXSS
+SAXAMASAAA
+MAMMMXMMMM
+MXMXAXMASX
+En esta sopa de letras, XMAS aparece un total de 18 veces; aquí está de nuevo la misma sopa de letras, pero en la que las letras que no aparecen en ninguna XMAS han sido sustituidas por ..:
+
+....XXMAS.
+.SAMXMS...
+...S..A...
+..A.A.MS.X
+XMASAMX.MM
+X.....XA.A
+S.S.S.SS
+.A.A.A.A.A
+..M.M.M.MM
+.X.X.XMASX
+Echa un vistazo a la sopa de letras del pequeño elfo. ¿Cuántas veces aparece XMAS?
+
+--- Segunda Parte
+El elfo te mira extrañado. ¿Has entendido mal la tarea?
+
+Buscando las instrucciones, le das la vuelta a la sopa de letras y descubres que, en realidad, no se trata de un acertijo de Navidad, sino de un acertijo de Navidad en el que se supone que tienes que encontrar dos MAS en forma de X. Una forma de conseguirlo es así:
+
+M.S
+.A.
+M.S
+Los caracteres irrelevantes se han sustituido de nuevo por . en el diagrama anterior. Dentro de la X, cada MAS puede escribirse hacia delante o hacia atrás.
+
+He aquí el mismo ejemplo de antes, pero esta vez se han conservado todas las X-MAS en su lugar:
+
+.M.S......
+..A..MSMS.
+.M.S.MAA..
+..A.ASMSM.
+.M.S.M....
+..........
+S.S.S.S.
+.A.A.A.A..
+M.M.M.M.M.
+..........
+En este ejemplo, X-MAS aparece 9 veces.
+
+Da la vuelta a la sopa de letras de las instrucciones y vuelve a intentarlo. ¿Cuántas veces aparece X-MAS?
