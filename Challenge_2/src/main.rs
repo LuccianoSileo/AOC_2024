@@ -73,5 +73,5 @@ fn main() {
         .filter(|report| report.is_safe() || report.is_safe_with_one_removal())
         .count();
 
-println!("Número de informes seguros con el Amortiguador de Problemas: {}", safe_count_one_remove);
+    println!("Número de informes seguros con el Amortiguador de Problemas: {}", safe_count_one_remove);
 }
